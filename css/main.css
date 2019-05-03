@@ -1,0 +1,198 @@
+html{
+	scroll-behavior: smooth;
+	padding-bottom: 0;
+}
+
+body{
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	scroll-behavior: smooth;
+	background-image: url("../img/sete1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow-y: hidden;
+
+}
+
+nav{
+	z-index: 5;
+	background: linear-gradient(270deg, #eb8710 , #dc5130);
+	width: 100%;
+	height: 65px;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 10px 5px 5px rgba(0,0,0,0.5);
+}
+
+nav a{
+	margin: 1vw;
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+
+nav a:hover{
+	color: #394A59;
+}
+
+#logo{
+	margin: 30vh auto;
+	text-align: center
+}
+
+#acontact2{
+	display: none;
+}
+
+footer{
+	width: 100%;
+	background-color: rgba(0,0,0,0.9);
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	align-content: baseline;
+	position:;
+	bottom:0%;
+	height: 10vh;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover{
+	color: #eb8710;
+}
+
+#reseaux img{
+	margin: 9px 0;
+}
+
+
+#coordonees{
+	margin-top: 3px;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	align-content: baseline;
+	flex-wrap: wrap;
+	width: 30%;
+}
+
+#coordonees div{
+	display: flex;
+}
+
+#coordonees p{
+	margin-top: 9px;
+}
+
+#lien{
+	margin-top: 9px;
+}
+
+#coordonees svg{
+	margin-top: 5px;
+}
+
+#coordonees div{
+	display: flex;
+}
+
+@media (min-width: 946px) and (max-width: 1585px) { 
+
+	body{
+		background-size: initial;
+		background-position-x: 33%;
+	}
+
+	#coordonees{
+		width: 70%;
+	}
+
+	footer{
+		position: fixed;
+		bottom: 0vh;
+		height: 10vh
+	}
+	
+ }
+
+ @media (min-width: 447px ) and (max-width: 946px ) {
+	 
+	body{
+		background-size: auto, auto;
+		background-position-x: 33%;
+	}
+	
+	#coordonees p{
+		display: none;
+	}
+
+	#coordonees div{
+		margin-right: 5%;
+	}
+
+	#lien{
+		display: none;
+	}	
+	nav{
+		display: flex;
+		flex-flow: wrap;
+	}
+	nav a{
+		font-size: 1em;
+		margin-top: 3%;
+	}
+	footer{
+		height: 25vh
+	}
+
+ }
+
+  @media (min-width: 1px ) and (max-width: 446px ) {
+
+  	footer{
+		height: 25vh
+	}
+	nav{
+		display: flex;
+		flex-flow: wrap;
+	}
+
+	nav a{
+		font-size: 1em;
+	
+	}
+
+	#sousmenu svg{
+		display: none;
+	}
+
+
+	#coordonees p{
+		display: none;
+	}
+
+	#lien{
+		display: none;
+	}
+	body{
+		background-size: 350%;
+		background-position-x: 33%;
+		background-repeat: no-repeat;
+	}
+	#widget_2476f2eb21f1f1c7eb55312de1f78d8d{
+		display: none;
+	}
+	
+
+ }
+	
+
+ 
+
+
+
